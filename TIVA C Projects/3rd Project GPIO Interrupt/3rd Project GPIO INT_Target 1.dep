@@ -1,0 +1,20 @@
+Dependencies for Project '3rd Project GPIO INT', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x600D9ED5)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (tm4c123gh6pm.h)(0x5726EC26)
+I (GPIO.h)(0x60070EDE)
+I (MyBoard.h)(0x6008376D)
+I (ExtInterrupt.h)(0x600D9607)
+F (.\ExtInterrupt.c)(0x600D9607)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\extinterrupt.o --omf_browse .\extinterrupt.crf --depend .\extinterrupt.d)
+I (ExtInterrupt.h)(0x600D9607)
+I (tm4c123gh6pm.h)(0x5726EC26)
+F (.\ExtInterrupt.h)(0x600D9607)()
+F (.\GPIO.c)(0x600A767D)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (tm4c123gh6pm.h)(0x5726EC26)
+I (MyBoard.h)(0x6008376D)
+I (GPIO.h)(0x60070EDE)
+F (.\GPIO.h)(0x60070EDE)()
+F (.\MyBoard.c)(0x600A7DC6)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\myboard.o --omf_browse .\myboard.crf --depend .\myboard.d)
+I (tm4c123gh6pm.h)(0x5726EC26)
+I (MyBoard.h)(0x6008376D)
+F (.\MyBoard.h)(0x6008376D)()
+F (.\startup.s)(0x600D97DD)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
